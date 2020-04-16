@@ -19,7 +19,7 @@ void little_big_endian(void)
     }
     else
     {
-        printf("This is big-endian");
+        printf("This is big-endian!");
     }
 }
 
