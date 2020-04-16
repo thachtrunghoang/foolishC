@@ -9,7 +9,7 @@ union test
     char b[2];
 };
 
-void little_big_endian()
+void little_big_endian(void)
 {
     union test valueTest;
     valueTest.a = 333;
@@ -23,4 +23,3 @@ void little_big_endian()
     }
 }
 
-//static

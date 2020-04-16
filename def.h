@@ -3,6 +3,6 @@
 #include <stdio.h>
 
 void hello_world(void);
-
+void little_big_endian(void);
 
 #endif
