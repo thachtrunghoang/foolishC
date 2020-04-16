@@ -1,5 +1,6 @@
 #include "def.h"
 int main()
 {
-    hello_world();
+    little_big_endian();
+    return 0;
 }

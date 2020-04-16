@@ -16,6 +16,9 @@
 1587008832 d:\github\foolishc\def.h
 	<stdio.h>
 
-1587008779 source:d:\github\foolishc\main.c
+1587010146 source:d:\github\foolishc\main.c
+	"def.h"
+
+1587010325 source:d:\github\foolishc\little_big_endian.c
 	"def.h"
 
