@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1587008465 source:f:\study\learncpp\project\foolishc\little_big_endian.c
+
+1587008675 source:f:\study\learncpp\project\foolishc\hello_world.c
+	"def.h"
+
+1587008832 f:\study\learncpp\project\foolishc\def.h
+	<stdio.h>
+
+1587008779 source:f:\study\learncpp\project\foolishc\main.c
+	"def.h"
+
+1587008834 source:d:\github\foolishc\hello_world.c
+	"def.h"
+
+1587008832 d:\github\foolishc\def.h
+	<stdio.h>
+
+1587008779 source:d:\github\foolishc\main.c
+	"def.h"
+
