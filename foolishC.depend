@@ -13,12 +13,19 @@
 1587008834 source:d:\github\foolishc\hello_world.c
 	"def.h"
 
-1587010742 d:\github\foolishc\def.h
+1587012720 d:\github\foolishc\def.h
 	<stdio.h>
+	<string.h>
 
-1587010715 source:d:\github\foolishc\main.c
+1587012946 source:d:\github\foolishc\main.c
 	"def.h"
 
 1587010992 source:d:\github\foolishc\little_big_endian.c
+	"def.h"
+
+1587011510 source:d:\github\foolishc\concatenation_operator.c
+	"def.h"
+
+1587012968 source:d:\github\foolishc\oop.c
 	"def.h"
 
