@@ -53,17 +53,17 @@ void oop(void)
     ptrMan = (struct man*)malloc(n* sizeof(man));
 
     init_struct(ptrMan);
-    (ptrMan)->setName("Ta");
-    (ptrMan)->setAge(26);
+    ptrMan[0].setName("Ta");
+    ptrMan[0].setAge(26);
 
     init_struct(ptrMan+1);
-    (ptrMan+1)->setName("Thanh");
-    (ptrMan+1)->setAge(26);
+    ptrMan[1].setName("Thanh");
+    ptrMan[1].setAge(26);
 
     init_struct(ptrMan);
-    ptrMan->getName();
-    ptrMan->getAge();
-    ptrMan->doWork();
+    ptrMan[0].getName();
+    ptrMan[0].getAge();
+    ptrMan[0].doWork();
 
     init_struct(ptrMan+1);
     ptrMan[1].getName();

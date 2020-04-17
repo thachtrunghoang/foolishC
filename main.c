@@ -2,6 +2,6 @@
 
 int main()
 {
-    oop();
+    array_function_pointer();
     return 0;
 }

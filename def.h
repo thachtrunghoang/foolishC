@@ -7,5 +7,6 @@ void little_big_endian(void);
 void concatenation_operator(void);
 void oop(void);
 void vt_fork(void);
+void array_function_pointer(void);
 
 #endif
