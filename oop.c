@@ -1,5 +1,6 @@
 #include "def.h"
 #include <stdlib.h>
+#include <string.h>
 typedef struct man
 {
     char name[10];
@@ -47,26 +48,27 @@ static void init_struct(man *pInitMan)
 
 void oop(void)
 {
-    int n=10;
+    int n=2;
     man *ptrMan;
     ptrMan = (struct man*)malloc(n* sizeof(man));
-    for (int i=0;i<9;i++)
-    {
-        init_struct(ptrMan+i);
-        (ptrMan+i)->setName("Hoang");
-        (ptrMan+i)->setAge(26);
-    }
-    init_struct(ptrMan+9);
-    (ptrMan+9)->setName("Thanh");
-    (ptrMan+9)->setAge(26);
+
+    init_struct(ptrMan);
+    (ptrMan)->setName("Ta");
+    (ptrMan)->setAge(26);
+
+    init_struct(ptrMan+1);
+    (ptrMan+1)->setName("Thanh");
+    (ptrMan+1)->setAge(26);
 
     init_struct(ptrMan);
     ptrMan->getName();
     ptrMan->getAge();
     ptrMan->doWork();
 
-    init_struct(ptrMan+9);
-    ptrMan[9].getName();
-    ptrMan[9].getAge();
-    ptrMan[9].doWork();
+    init_struct(ptrMan+1);
+    ptrMan[1].getName();
+    ptrMan[1].getAge();
+    ptrMan[1].doWork();
+
+    free(ptrMan);
 }

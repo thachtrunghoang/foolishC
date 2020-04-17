@@ -1,4 +1,5 @@
 #include "def.h"
+
 int main()
 {
     oop();
