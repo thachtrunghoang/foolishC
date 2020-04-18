@@ -1,4 +1,4 @@
-#include "def.h"
+#include <stdio.h>
 
 // 333 = 256 + 77
 // 255 = 0xFF, 256 = 0x100
